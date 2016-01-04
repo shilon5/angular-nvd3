@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "angular": "^1.x",
-    "nvd3": "shilon5/nvd3#~1.8.5"
+    "nvd3": "shilon5/nvd3#~1.8.6"
   },
   "ignore": [
     "**/.*",
