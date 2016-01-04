@@ -2,6 +2,7 @@
 .directory
 *.log
 *.iml
+angular-nvd3.iml
 
 coverage
 node_modules
