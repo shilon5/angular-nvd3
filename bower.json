@@ -17,12 +17,12 @@
     "svg"
   ],
   "authors": [
-    "Konstantin Skipor"
+    "Nir Shilon"
   ],
-  "homepage": "http://krispo.github.io/angular-nvd3",
+  "homepage": "http://shilon5.github.io/angular-nvd3",
   "repository": {
     "type": "git",
-    "url": "https://github.com/krispo/angular-nvd3.git"
+    "url": "https://github.com/shilon5/angular-nvd3.git"
   },
   "dependencies": {
     "angular": "^1.x",
