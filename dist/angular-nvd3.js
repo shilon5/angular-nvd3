@@ -1,5 +1,5 @@
 /**************************************************************************
-* AngularJS-nvD3, v1.0.5; MIT License; 04/01/2016 16:08
+* AngularJS-nvD3, v1.0.5; MIT License; 26/05/2016 14:42
 * http://krispo.github.io/angular-nvd3
 **************************************************************************/
 (function(){
@@ -221,7 +221,7 @@
                                 scope.svg = d3.select(element[0]).append('svg');
                                 if (h = scope.options.chart.height) {
                                     if (!isNaN(+h)) h += 'px'; //check if height is number
-                                    scope.svg.attr('height', h).style({height: h});
+                                    scope.svg.attr('height', h).style({height: h, 'min-height': h});
                                 }
                                 if (w = scope.options.chart.width) {
                                     if (!isNaN(+w)) w += 'px'; //check if width is number

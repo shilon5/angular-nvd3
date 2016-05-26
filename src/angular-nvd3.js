@@ -217,7 +217,7 @@
                                 scope.svg = d3.select(element[0]).append('svg');
                                 if (h = scope.options.chart.height) {
                                     if (!isNaN(+h)) h += 'px'; //check if height is number
-                                    scope.svg.attr('height', h).style({height: h});
+                                    scope.svg.attr('height', h).style({height: h, 'min-height': h});
                                 }
                                 if (w = scope.options.chart.width) {
                                     if (!isNaN(+w)) w += 'px'; //check if width is number
